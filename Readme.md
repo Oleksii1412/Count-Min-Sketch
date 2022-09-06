@@ -93,13 +93,13 @@ First, you have to be sure that you have installed following components:
 :white_check_mark: Carefully check a pom.xml file if any errors have occurred - fix them.
     
 
-#### If you have chosen the first option:
+#### If you have chosen the <u>first option</u>:
 1) Open Main.java class.
 2) Click on the "run" sign to start up an application.
 3) Application has been started
 4) Now, you have to follow application hints.
 
-#### If you have chosen the second option:
+#### If you have chosen the <u>second option</u>:
 1) Check in your CLI if maven was installed.
 ```
 mvn -version
@@ -127,6 +127,7 @@ cd target
 dir or ls with git
 ```
 You can copy the full name of the jar file, and recommended using a jar with dependencies.
+
 7) Use the next command to run up an application. _Note_, you have to be in the /target directory to do that.
 ```
 java -jar<full name of jar file>.jar
